@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(214, 240, 248);
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header h1 {
+  margin: 4rem 0 2rem 0;
+  text-align: center;
+  font-size: 2.6rem;
+}
+
+header p {
+  font-size: 1.6rem;
+}
+
+.pads {
+  width: 100%;
+  display: flex;
+}
+
+.pads > div {
+  height: 6rem;
+  width: 6rem;
+  flex: 1;
+  cursor: pointer;
+}
+
+.pad1 {
+  background-color: #a3586d;
+}
+
+.pad2 {
+  background-color: #5c4a72;
+}
+
+.pad3 {
+  background-color: #f3b05a;
+}
+
+.pad4 {
+  background-color: #f46a4e;
+}
+
+.pad5 {
+  background-color: #0abda0;
+}
+
+.pad6 {
+  background-color: #af1b45;
+}
